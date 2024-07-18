@@ -1,0 +1,65 @@
+@font-face {
+    font-family: miama;
+    src: url(/fonts/Miama.ttf);
+}
+
+
+
+
+/* these are global style */
+
+
+.main-div{
+    max-width: 100%;
+    padding: 0px 200px;
+}
+
+
+
+
+
+
+
+
+
+
+.hero-font{
+    font-family: miama;
+}
+
+
+.font-inter{
+    font-family: "Inter", sans-serif;  
+}
+
+
+
+
+
+
+
+
+
+/* global style ends here  */
+
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+nav ul{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+}
+
+
+
+nav ul a{
+    text-decoration: none;
+    
+}
