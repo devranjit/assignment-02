@@ -1,0 +1,158 @@
+
+@media screen and (max-width:576px){
+
+
+
+/* mobile menu style start  */
+
+
+
+
+
+    .desktop-header{
+        display: none;
+    }
+    
+    
+    
+    
+    .mobile-container{
+        display: inline;
+        max-width: 100%;
+        padding: 0 20px;
+        
+    }
+
+    .mobile-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 20px;
+
+    }
+
+    .mobile-menu{
+        display: none;
+    }
+
+
+    .mobile-menu ul{
+
+        list-style-type: none;
+        position: absolute;
+        top: 60px;
+        right: 5px;
+        background-color: rgb(255, 255, 255);
+        width: 250px;
+        height: fit-content;
+        padding: 15px 15px;
+        border: 1px solid #4e4e4e8c;
+        text-align: center;
+ 
+    }
+
+     .menu-icon:hover .mobile-menu{
+        display: inline;
+     }
+
+
+
+
+    .mobile-menu li{
+        margin-bottom: 15px;
+        
+    }
+
+    .mobile-menu a{
+        text-decoration: none;
+        list-style: none;
+        font-size: 25px;
+
+        
+    }
+
+
+
+
+
+    /*mobile menu style ends here   */
+
+
+
+
+
+
+/* hero section code start here  */
+
+.main-div{
+    max-width: 100%;
+    padding: 10px;
+}
+
+.hero-section{
+    display: grid;
+    justify-items: center;
+}
+
+
+.hero-btn{
+    width: 550px;
+    text-align: center;
+}
+
+.btn-main{
+    padding: 20px 35px;
+}
+
+.btn-outline{
+    padding: 20px 35px;
+}
+
+
+
+
+/* habits section start here  */
+
+
+.process-section{
+    display: grid;
+}
+
+
+/* habits section ends here  */
+
+
+
+
+
+
+
+/* run section starts here  */
+
+
+
+.run-section{
+
+    display: grid;
+}
+
+.run-section{
+    max-width: 100%;
+    
+}
+
+
+.run-section img{
+    max-width: 450px;
+    padding: 20px 0px;
+    border-radius: 16px;
+}
+
+
+
+
+
+
+}
+
+

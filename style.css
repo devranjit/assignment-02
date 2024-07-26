@@ -3,6 +3,11 @@
     src: url(/fonts/Miama.ttf);
 }
 
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
 
 
 
@@ -16,23 +21,10 @@
 
 
 
-
-
-
-
-
-
-
 .hero-font{
     font-family: miama;
+    font-weight: 400;
 }
-
-
-.font-inter{
-    font-family: "Inter", sans-serif;  
-}
-
-
 
 
 
@@ -43,6 +35,18 @@
 /* global style ends here  */
 
 
+header{
+    background-color: rgb(0, 0, 0);
+    padding: 30px 0px;
+}
+
+.header-logo{
+    color: #e6533c;
+    font-weight:bolder;
+    font-style: italic;
+    font-size: 35px;
+}
+
 header nav{
     display: flex;
     justify-content: space-between;
@@ -51,15 +55,409 @@ header nav{
 
 
 
+
+nav{
+    
+    
+}
+
+
+
 nav ul{
     display: flex;
     gap: 50px;
     list-style-type: none;
+    justify-content: center;
+    align-items: center;
 }
 
+
+nav ul{
+    border: 1px solid #9696962f ;
+    border-radius: 50px;
+    
+}
 
 
 nav ul a{
     text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+    padding: 10px 20px;
+
+
     
 }
+
+nav ul a:active{
+    background-color: #e6533c;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+nav ul a:hover{
+    background-color: #e6533c;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+
+
+
+/* mobile header style  */
+
+.mobile-container{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* hero section style start here  */
+
+.hero-font{
+    font-size: 115px;
+    color: #fff;
+}
+
+
+
+.hero-content h1{
+    font-size: 85px;
+    line-height: 85px;
+    font-weight: 900;
+    color: #fff;
+
+
+}
+
+.hero-section > p{
+    font-size: 16px;
+    padding: 30px 0px;
+    
+
+}
+
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0px;
+    
+
+
+}
+
+.btn-main{
+    padding: 10px 25px;
+    background-color: #e6533c;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 16px;
+    margin: 0px 5px;
+
+
+}
+
+.btn-outline{
+    padding: 10px 25px;
+    border: 1px solid #fff;
+    background-color: #000000;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 16px;
+    margin: 0px 5px;
+}
+
+.hero-div{
+    background-color: #000000;
+}
+
+.hero-img{
+   position: relative;;
+}
+
+.tutor-one h5{
+    color: #fff;
+    font-size: 25px;
+}
+
+.tutor-one p{
+    font-size: 16px;
+    color: grey;
+    
+}
+
+.tutor-one .color{
+    width: 30px;
+    height: 30px;
+    background-color: #e6533c;
+    border-radius: 50%;
+}
+
+.tutor-one{
+    display: flex;
+    justify-content: space-between;
+    max-width: 170px;
+    max-height: 150px;
+    gap: 10px;
+    align-items: center;
+    background-color: #55535383;
+    background: transparent #55535383 ;
+    padding: 15px 20px;
+    border-radius: 10px;
+    position: absolute;
+    left: -70px;
+    bottom: 60px;
+} 
+
+
+.tutor-two h5{
+    color: #fff;
+    font-size: 35px;
+}
+
+.tutor-two p{
+    font-size: 16px;
+    color: grey; 
+}
+
+
+.tutor-two{
+    max-width: 190px;
+    max-height: 150px;
+    align-items: center;
+    background-color: #55535383;
+    background: transparent #55535383 ;
+    padding: 15px 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 120px;
+    right: -55px;
+
+}
+
+
+
+
+/* habits section start here  */
+
+.habits-section{
+    padding: 50px 0px;
+}
+
+
+
+
+.habit-header{
+    padding: 50px 0px;
+}
+
+.habits-section h1{
+
+    font-size: 55px;
+    color: #fff;
+    text-align: center;
+}
+
+.habits-section p{
+    color: grey;
+    margin: 15px 0px;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+.process-section{
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.process{
+   
+    text-align: center;
+    margin-right: 25px;
+}
+
+
+
+.process img{
+    border-radius: 50%;
+    max-width: 100%;
+    margin: 0 auto;
+
+
+}
+
+.process h3{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.process p{
+    color: grey;
+    font-size: 16px;
+}
+
+
+.process-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* running section start here  */
+
+
+
+
+.run-section{
+    background-color: rgba(39, 38, 38, 0.637);
+    padding: 50px;
+    border-radius: 16px;
+    margin:50px 0px;
+}
+
+
+
+
+.run-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.run-img img{
+    max-width: 600px;
+    border-radius: 16px;
+}
+
+.run-content h1{
+    color: #fff;
+    font-size: 75px;
+    font-weight: 600;
+}
+
+.run-content p{
+    color: grey;
+    margin: 30px 0px;
+}
+
+
+.btn-extra{
+    padding: 15px 60px;
+}
+
+
+
+
+
+/* exercise section style start here  */
+
+.exercise-section{
+    margin: 50px 0px;
+}
+
+.exercise-heading h1{
+    font-size: 55px;
+    color: #fff;
+}
+
+.exercise-heading p{
+    font-size: 16px;
+    color: grey;
+    padding:15px 0px;
+}
+
+
+.exercise-content{
+    max-width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+}
+
+.exercise-one{
+    background-image: url(images/exercise1.jpg);
+    max-width: 30%;
+    height: 200px;
+    background-size: cover;
+}
+
+.exercise-one{
+
+}
+
+
+.exercise-two{
+    background-image: url(images/exercise2.png);
+    max-width: 40%;
+    height: 200px;
+    background-size: cover;
+}
+
+.exercise-three{
+    background-image: url(images/exercise2.png);
+    max-width: 30%;
+    height: 200px;
+    background-size: cover;
+}
+
+.exercise-four{
+    background-image: url(images/exercise3.png);
+    max-width: 100%;
+    height: 200px;
+    background-size: cover;
+}
+
+.exercise-five{
+    background-image: url(images/exercise4.png);
+    max-width: 100%;
+    height: 200px;
+    background-size: cover;
+}
+
+.exercise-six{
+    background-image: url(images/exercise5.jpg);
+    max-width: 100%;
+    height: 200px;
+    background-size: cover;
+}
+.exercise-six{
+    background-image: url(images/exercise6.jpg);
+    max-width: 100%;
+    height: 200px;
+    background-size: cover;
+}
+
