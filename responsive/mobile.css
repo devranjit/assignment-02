@@ -1,0 +1,111 @@
+@media (max-width: 576px) {
+    
+
+
+/* this are header responsive codes  */
+
+.main-header{
+    display: none;
+}
+
+
+.mobile-header{
+    display: inline;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    position: relative;
+    background-color: black;
+
+
+}
+
+
+.mobile-menu{
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    padding:15px;
+    border-radius: 5px;;
+    background-color: #8585855b;
+    top: 60px;
+    overflow: hidden;
+    align-items: center
+    ;
+    
+    
+
+}
+
+.mobile-menu ul li a{
+    text-decoration: none;
+    font-family: inter;
+    color: #fff;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+
+.mobile-menu ul li a:hover{
+  
+  text-decoration: underline;
+  text-transform: uppercase;
+
+
+}
+
+
+.mobile-menu ul li{
+    list-style-type: none;
+    margin: 10px 0px;
+}
+
+
+
+.mobile-menu{
+    display: none;
+}
+
+
+.fa-solid{
+    color: #fff;
+    font-size: 30px;
+}
+
+
+.mobile-header h1{
+    color: #E6533C;
+    font-size: 35px;
+    font-style: italic;
+    font-family: inter;
+    align-items: center;
+
+}
+
+
+
+
+.mobile-header .mobile-hm:hover{
+
+    display: inline;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

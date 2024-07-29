@@ -29,6 +29,8 @@
     max-width: 100%;
     padding: 0px 200px;
     margin: 0 auto;
+    background-color: black;
+    
     
 }
 
@@ -103,9 +105,6 @@ header{
     
     
     
-  
-    
-    
 }
 
 
@@ -118,24 +117,54 @@ header{
     font-style: italic;
 }
 
-/* .header-menu-iteam a:hover{
-    background-color: #E6533C;
-    
-    border-radius: 50px;
-    margin: 3%;
-    
-} */
 
-
-.header-menu-iteam a:hover,
-.header-menu-iteam a:active,
-.header-menu-iteam a.active {
+.header-menu-iteam a:hover{
     background-color: #E6533C;
     border-radius: 50px;
-    font-weight: 400;
 }
 
 
+/* desktop header codes ends here  */
+
+
+
+
+/* mobile header code start here  */
+
+
+
+.mobile-header{
+    display: none;
+}
+
+
+
+.mobile-header h1{
+    color: #E6533C;
+    font-size: 35px;
+    font-style: italic;
+    font-family: inter;
+
+}
+
+
+
+
+
+
+/* hero section style start from here  */
+
+
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,0.5466561624649859) 0%, rgba(0,0,0,1) 0%, rgba(29,29,29,1) 29%, rgba(0,0,0,1) 100%, rgba(0,0,0,1) 100%);
+
+padding: 0px 200px;
+}
 
 
 
