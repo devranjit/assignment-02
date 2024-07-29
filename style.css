@@ -17,6 +17,8 @@
 
 .hero-font{
     font-family: miama;
+    font-size: 120px;
+    font-weight: 400;
 }
 
 
@@ -35,7 +37,40 @@
 }
 
 
+.btn-main{
+    padding: 15px 35px;
+    border-radius: 50px;
+    border: none;
+    background-color: #E6533C;
+    margin-right: 10px;
+}
 
+.btn-main a{
+    font-size: 18px;
+    font-family: inter;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.btn-outline{
+    padding: 15px 35px;
+    border-radius: 50px;
+    border: 2px soild #fff;
+    margin-right: 10px;
+    z-index: 500;
+    background-color: black;
+}
+
+.btn-outline a{
+    font-size: 18px;
+    font-family: inter;
+    font-weight: 600;
+    color: #fff;
+    border: nones;
+    text-decoration: none;
+}
 
 
 
@@ -139,13 +174,6 @@ header{
 
 
 
-.mobile-header h1{
-    color: #E6533C;
-    font-size: 35px;
-    font-style: italic;
-    font-family: inter;
-
-}
 
 
 
@@ -167,8 +195,121 @@ padding: 0px 200px;
 }
 
 
+.hero-content h1{
+ 
+  font-size: 78px;
+  font-family: inter;  
+  line-height: 95px;
+  color: #fff;
+  font-weight: 900;
+}
+
+
+.hero-content p{
+    font-size: 16px;
+    color: gray;
+    font-family: inter;
+    line-height: 24px;
+    margin: 15px 0px;
+}
+
+
+.hero-image{
+    position: relative;
+}
+
+
+.tips-box-one h1{
+    color: #fff;
+    font-family: inter;
+    font-size:40px ;
+    font-weight: 900;
+}
+.tips-box-one p{
+    color: rgb(95, 95, 95);
+    font-family: inter;
+    font-size: 13px;
+}
+
+
+.tips-box{
+    background-color: #4949496c;
+    position: absolute;
+    padding: 15px;
+    border-radius: 10px;
+    top:150px;
+    right: -10px;
+    border: 0.5px solid #2c2c2c23;
+
+
+}
+
+
+
+.tips-box h1{
+
+    color: #fff;
+    font-size: 25px;
+    font-family: inter;
+    font-weight: 900;
+
+    
+
+}
+
+
+.tips-box p{
+    color: #ffffff7c;
+}
+
+
+
+.tips-box-two{
+    background-color: #4949496c ;
+    position: absolute;
+    padding: 15px;
+    border-radius: 10px;
+    bottom: 80px;
+    left: -55px;
+
+}
 
 
 
 
+.circle{
+    width: 40px;
+    height: 40px;
+    background-color: #E6533C;
+    border-radius: 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
 
+
+.tips-box-two{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cir-content h1{
+    color: #fff;
+    font-family: inter;
+    font-size: 26px ;
+
+}
+
+.cir-content p{
+    color: #ffffff7c ;
+}
+
+
+.fa-play{
+    font-size: 25px;
+    color: #fff;
+    align-items: center;
+}
