@@ -326,3 +326,74 @@ padding: 0px 200px;
     left: 12px;
     bottom: 10px;
 }
+
+
+
+
+/* habits style start here  */
+
+
+.habits-section{
+    padding: 50px 0px;
+}
+
+
+.habits h3{
+    color: #fff;
+    text-align: center;
+    font-family: inter;
+    font-family: 18px;
+    font-weight: 600;
+    padding: 5px 0px;
+
+}
+
+.habits p{
+    color: #fff;
+    text-align: center;
+    color: grey;
+    font-family: inter;
+    font-size: 16px;
+}
+
+
+
+.habit-heading{
+    padding: 50px 0px;
+}
+
+
+.habit-heading h1{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.habit-heading p{
+    color: grey;
+    text-align: center;
+    margin: 15px 0px;
+}
+
+
+.habits img{
+    width: 250px;
+    height: 250px ;
+    border-radius: 50%;
+    border: 5px solid rgba(41, 38, 38, 0.651);
+    
+
+}
+
+
+
+
+.all-habits{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    justify-content: space-between;
+    
+}

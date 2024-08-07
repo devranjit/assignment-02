@@ -4,6 +4,14 @@
 
 /* this are header responsive codes  */
 
+
+.container{
+    max-width: 100%;
+    padding: 10px 0px;
+}
+
+
+
 .main-header{
     display: none;
 }
@@ -123,7 +131,13 @@
 
 
 
-
+.all-habits{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    
+}
 
 
 
