@@ -100,8 +100,26 @@
     padding: 10px;
     display: grid;
     align-items: center;
+    justify-content: center;
 }
 
+.hero-image{
+    align-items: center;
+    margin-left: 20px;
+}
+
+
+.circle{
+    position: relative;
+}
+
+.play-btn{
+    position: absolute;
+    top: 12px;
+    bottom: 12px;
+    left: 12px;
+    right: 12px;
+}
 
 
 
