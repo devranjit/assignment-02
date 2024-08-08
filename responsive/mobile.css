@@ -7,7 +7,7 @@
 
 .container{
     max-width: 100%;
-    padding: 10px 0px;
+    padding: 10px 15px;
 }
 
 
@@ -138,6 +138,49 @@
     padding: 0px;
     
 }
+
+
+
+
+
+
+
+/* newsletter section start here  */
+
+
+
+.newsletter{
+display: flex;
+gap: 70px;
+}
+
+
+.news-content h1{
+font-size: 25px;
+
+}
+
+
+.news-img img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    
+}
+
+
+.news-section{
+    paddiing
+}
+
+
+
+
+
+
+
+
+
 
 
 

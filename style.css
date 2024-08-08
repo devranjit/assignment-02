@@ -444,3 +444,124 @@ padding: 0px 200px;
 
 
 
+
+
+/* training section style start here  */
+
+
+
+
+
+
+.training-section{
+    padding: 80px 0px;
+}
+
+
+
+
+
+.training-section h1{
+     color: #fff;
+     font-size: 48px;
+}
+
+
+.training-section p{
+    font-size: 16px;
+    color: gray;
+    padding: 10px 0px;
+}
+
+
+
+/* exercise section start here  */
+
+
+
+
+.exercise{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: 25% 50% auto; */
+   
+}
+
+
+
+
+.box-style h3{
+    color: #fff;
+    font-family: inter;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 50px;
+    
+
+}
+
+
+.box1{
+    max-width: 400px;
+    height: 300px;
+    background-color: #06ffd13f
+    ;
+    background-image: url(images/exercise1.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+    text-align: left;
+    display: flex;
+    align-items: flex-end;
+    
+    
+
+}
+
+
+.box2{
+    max-width: 800px;
+    height: 300px;
+    background: rgba(175, 18, 18, 0.349);
+    background-image: url(images/exercise2.png);
+    background-blend-mode:overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+    
+    
+
+}
+
+.box3{
+    max-width: 500px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.521);
+    background-blend-mode: overlay;
+    background-image: url(images/exercise3.png);
+    background-size: cover;
+    align-items: flex-end;
+    display: flex
+    
+    
+
+}
+
+
+.box4{
+    max-width: 100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.521);
+    background-blend-mode: overlay;
+    background-image: url(images/exercise4.png);
+    background-size: cover;
+    align-items: flex-end;
+    display: flex
+    
+    
+
+}
+
+
+
+
+
