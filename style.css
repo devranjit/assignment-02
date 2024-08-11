@@ -478,17 +478,23 @@ padding: 0px 200px;
 /* exercise section start here  */
 
 
+.training-section{
+    padding: 50px 0px;
+}
 
 
 .exercise{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    /* grid-template-columns: 25% 50% auto; */
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: 25% 50% 25% ;
+
    
 }
 
-
-
+.exercise-two{
+    display: grid;
+    grid-template-columns: 40% 25% 35%;
+}
 
 .box-style h3{
     color: #fff;
@@ -547,15 +553,45 @@ padding: 0px 200px;
 }
 
 
-.box4{
+ .box4{
     max-width: 100%;
     height: 300px;
     background-color: rgba(0, 0, 0, 0.521);
     background-blend-mode: overlay;
     background-image: url(images/exercise4.png);
     background-size: cover;
+    text-align: right;
+
+    
+    
+
+}
+
+.box5{
+    max-width: 100%;
+    height: 300px;
+    background-color: rgba(65, 179, 42, 0.521);
+    background-blend-mode: overlay;
+    background-image: url(images/exercise5.jpg);
+    background-size: cover;
     align-items: flex-end;
-    display: flex
+    display: flex;
+    
+    
+
+}
+
+
+.box6{
+    max-width: 100%;
+    height: 300px;
+    background-color: rgba(82, 116, 168, 0.521);
+    background-blend-mode: overlay;
+    background-image: url(images/exercise6.jpg);
+    background-size: cover;
+    align-items: flex-end;
+    display: flex;
+
     
     
 

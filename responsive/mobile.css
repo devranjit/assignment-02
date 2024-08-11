@@ -178,11 +178,56 @@ font-size: 25px;
 
 
 
+/* exercise section style start  */
+
+
+.box3{
+    overflow: hidden;
+
+
+}
+
+
+.box-style h3{
+    font-size: 10px;
+    font-weight: 400;
+    padding: 20px;
+}
+
+
+.box4{
+    
+    align-items: flex-end;
+    display: flex;
+
+    
+    
+
+}
+
+
+
+.box-style {
+    width: auto;
+    height: 200px;
+}
+
+
+
+.exercise{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33% ;
+
+   
+}
 
 
 
 
-
+.exercise-two{
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+}
 
 
 
