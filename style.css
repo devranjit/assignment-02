@@ -603,15 +603,16 @@ padding: 0px 200px;
 
 
 .calc-section{
-    padding: 150px 0px;
+    padding: 150px 200px;
     background-color: #222222;;
     max-width: 100%;
-    padding: 0px 200px;
+    
+    
 }
 
 
 .calc-heading{
-    padding: 0px 30%;
+    padding: 80px  30%;
 }
 
 .calc-heading h1{
@@ -646,7 +647,7 @@ padding: 0px 200px;
 .chart-table th{
     color: #fff;
     border: 1px solid #464242;
-    padding: 10px 25px;
+    padding: 15px 30px;
     font-family: inter;
     font-size: 12px;
     font-family: 500;
@@ -656,7 +657,7 @@ padding: 0px 200px;
 
 .chart-table td{
     border: 1px solid #464242;
-    padding: 10px;
+    padding: 15px 30px;
     color: #727272d3;
     font-family: inter;
     font-size: 14px;
@@ -691,6 +692,38 @@ padding: 0px 200px;
     color: gray;
     font-family: inter;
     font-size: 14px;
+    padding: 10px 0px;
 }
+
+
+
+.custom-form input{
+    width: ;
+    background-color: #383838;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 16px;
+    padding: 20px 40px;
+    text-align: left;
+
+}
+
+
+.custom-form select{
+    background-color: #383838;
+    font-size: 16px;
+    border: none;
+    width: 100%;
+    
+}
+
+
+
+
+
+
+
+
 
 
