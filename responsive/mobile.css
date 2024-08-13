@@ -256,9 +256,81 @@ padding: 30px 10px;
 
 
 
+/* team section responsive  */
+
+.team-section{
+    background-color:#191919;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 20px ;
+    border-radius: 20px;
+    
+    
+
+    
+
+}
+
+
+.team-01,
+.team-02,
+.team-03,
+.team-04,
+.team-05,
+.team-06{
+    max-width: 350px;
+    height: 250px;
+    background-position: center;
+    border-radius: 20px;
+    position: relative;
+    
+    
+    
+}
 
 
 
+.team-title{
+    color: #fff;
+    font-family: inter;
+    font-size: 16px;
+    
+    
+
+    
+}
+
+
+
+
+/* footer responsive start here  */
+
+.footer-main{
+    background-color: #191919;
+    padding: 30px 10px;
+    gap: 50px;
+    display: grid;
+}
+
+
+
+.footer-menu-main{
+    display: flex;
+    justify-content:space-between;
+    gap: 50px;
+}
+
+
+
+.footer-cr{
+    padding: 10px 10px;
+    
+}
+
+.footer-cr h6{
+    font-weight: 400;
+}
 
 
 

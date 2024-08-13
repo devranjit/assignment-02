@@ -775,8 +775,6 @@ font-weight: 900;
 
 }
 
-
-
 .team-01{
     background-color: rgba(0, 0, 0, 0.329);
     background-image: url(/images/trainer1.png);
@@ -896,10 +894,88 @@ font-weight: 900;
 
 
 
+/* footer responsive start from here  */
 
 
 
 
+.footer-main{
+    background-color: #191919;
+    padding: 80px 200px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.footer-content h1{
+    font-size: 70px ;
+    color:#E6533C;
+    font-family: inter;
+    font-style: italic;
+}
+
+
+.footer-content p{
+    color: gray;
+    font-size: 16px;
+    font-family: inter;
+    padding:40px 0px
+}
+
+
+.ft-title{
+    font-size: 32px;
+    font-family: inter;
+    color: #fff;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+.ft-menu li{
+    list-style-type: none;
+    margin: 20px 0px;
+    
+}
+
+.ft-menu li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 23px;
+    
+}
+
+
+
+
+.footer-copyright{
+    background-color: #191919;
+    
+}
+
+.footer-cr{
+    max-width: 100%;
+    padding: 0px 200px;
+    
+}
+
+
+
+
+.footer-cr h6{
+    color: rgba(255, 255, 255, 0.50);
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.10);
+    padding: 40px 0px;
+    
+}
 
 
 
