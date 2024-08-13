@@ -231,6 +231,30 @@ font-size: 25px;
 
 
 
+/* calculate section start here  */
+
+
+.calc-heading{
+
+padding: 30px 10px;
+}
+
+.calc-main{
+    display: inline;
+    padding: 10px;
+}
+
+.calc-section{
+    padding: 20px 10px;
+}
+
+
+
+
+
+
+
+
 
 
 
