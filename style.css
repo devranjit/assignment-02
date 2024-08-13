@@ -715,6 +715,9 @@ padding: 0px 200px;
 
 }
 
+
+
+
 .custom-form select:last-child{
     grid-column: 1 /span 2;
     margin-bottom: 20px;
@@ -723,6 +726,7 @@ padding: 0px 200px;
 
 
 
+/* team section start here */
 
 
 
@@ -730,48 +734,132 @@ padding: 0px 200px;
 
 
 
+.team-section{
+    background-color: #383838;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px ;
+    border-radius: 10px;
 
+    
 
-
-
-
-
-/* team section start here  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.team-header h1{
-    color: #fff;
-    font-family: inter;
-    font-size: 48px;
-    text-align: center;
-    padding-top:80px;
 }
 
-.team-header p{
+
+
+.team-01{
+    background-color: rgba(0, 0, 0, 0.329);
+    background-image: url(/images/trainer1.png);
+    background-blend-mode: overlay;
+    background-size: cover;
+    max-width: 550px;
+    height: 350px;
+    border-radius: 10px;
+    position: relative;
+    
+    
+}
+
+.team-02{
+    background-color: rgba(0, 0, 0, 0.329);
+    background-image: url(/images/trainer2.png);
+    background-blend-mode: overlay;
+    background-size: cover;
+    max-width: 550px;
+    height: 350px;
+    border-radius: 10px;
+    position: relative;
+    
+    
+}
+
+
+.team-03{
+    background-color: rgba(0, 0, 0, 0.329);
+    background-image: url(/images/trainer3.png);
+    background-blend-mode: overlay;
+    background-size: cover;
+    max-width: 550px;
+    height: 350px;
+    border-radius: 10px;
+    position: relative;
+    
+    
+}
+
+
+.team-04{
+    background-color: rgba(0, 0, 0, 0.329);
+    background-image: url(/images/trainer4.png);
+    background-blend-mode: overlay;
+    background-size: cover;
+    max-width: 550px;
+    height: 350px;
+    border-radius: 10px;
+    position: relative;
+    
+    
+}
+
+
+.team-05{
+    background-color: rgba(0, 0, 0, 0.329);
+    background-image: url(/images/trainer5.png);
+    background-blend-mode: overlay;
+    background-size: cover;
+    max-width: 550px;
+    height: 350px;
+    border-radius: 10px;
+    position: relative;
+    
+    
+}
+
+
+.team-06{
+    background-color: rgba(0, 0, 0, 0.329);
+    background-image: url(/images/trainer6.png);
+    background-blend-mode: overlay;
+    background-size: cover;
+    max-width: 550px;
+    height: 350px;
+    border-radius: 10px;
+    position: relative;
+    
+    
+}
+
+
+
+.team-iteams{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+
+
+
+
+
+.team-title{
+    color: #fff;
+    font-family: inter;
+    font-size: 24px;
+    
+    
+
+    
+}
+
+.team-role{
     font-size: 16px;
     font-family: inter;
     color: gray;
-    text-align: center;
     padding: 10px 0px;
-    padding-bottom: 80px;
+    
+    
 
 }
 
