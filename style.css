@@ -734,13 +734,42 @@ padding: 0px 200px;
 
 
 
+.team-header h1{
+color: #fff;
+font-family: inter;
+text-align: center;
+font-size: 48px;
+padding: 80px 0px 20px 0px ;
+font-weight: 900;
+}
+
+.team-header p{
+    color: gray;
+    font-size: 16px;
+    font-family: inter;
+    text-align: center;
+    padding: 10px 0px 80px 0px;
+}
+
+
+
+.team-section-main{
+    padding-bottom: 80px;
+}
+
+
+
+
+
 .team-section{
-    background-color: #383838;
+    background-color:#191919;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 40px;
     padding: 20px ;
-    border-radius: 10px;
+    border-radius: 20px;
+    
+    
 
     
 
@@ -755,7 +784,7 @@ padding: 0px 200px;
     background-size: cover;
     max-width: 550px;
     height: 350px;
-    border-radius: 10px;
+    border-radius: 20px;
     position: relative;
     
     
@@ -768,7 +797,7 @@ padding: 0px 200px;
     background-size: cover;
     max-width: 550px;
     height: 350px;
-    border-radius: 10px;
+    border-radius: 20px;
     position: relative;
     
     
@@ -782,7 +811,7 @@ padding: 0px 200px;
     background-size: cover;
     max-width: 550px;
     height: 350px;
-    border-radius: 10px;
+    border-radius: 20px;
     position: relative;
     
     
@@ -796,7 +825,7 @@ padding: 0px 200px;
     background-size: cover;
     max-width: 550px;
     height: 350px;
-    border-radius: 10px;
+    border-radius: 20px;
     position: relative;
     
     
@@ -810,7 +839,7 @@ padding: 0px 200px;
     background-size: cover;
     max-width: 550px;
     height: 350px;
-    border-radius: 10px;
+    border-radius: 20px;
     position: relative;
     
     
@@ -824,7 +853,7 @@ padding: 0px 200px;
     background-size: cover;
     max-width: 550px;
     height: 350px;
-    border-radius: 10px;
+    border-radius: 20px;
     position: relative;
     
     
