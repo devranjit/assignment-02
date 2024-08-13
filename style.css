@@ -603,7 +603,7 @@ padding: 0px 200px;
 
 
 .calc-section{
-    padding: 150px 200px;
+    padding: 50px 200px;
     background-color: #222222;;
     max-width: 100%;
     
@@ -696,27 +696,87 @@ padding: 0px 200px;
 }
 
 
-
-.custom-form input{
-    width: ;
-    background-color: #383838;
-    border: none;
-    border-radius: 5px;
-    margin: 10px;
-    font-size: 16px;
-    padding: 20px 40px;
-    text-align: left;
-
-}
-
-
-.custom-form select{
-    background-color: #383838;
-    font-size: 16px;
-    border: none;
-    width: 100%;
+.custom-form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
     
 }
+
+.custom-form input[type="number"],
+.custom-form input[type="text"],
+.custom-form select{
+    width: 100%;
+    padding: 15px;
+    background-color: #383838;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+
+}
+
+.custom-form select:last-child{
+    grid-column: 1 /span 2;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* team section start here  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.team-header h1{
+    color: #fff;
+    font-family: inter;
+    font-size: 48px;
+    text-align: center;
+    padding-top:80px;
+}
+
+.team-header p{
+    font-size: 16px;
+    font-family: inter;
+    color: gray;
+    text-align: center;
+    padding: 10px 0px;
+    padding-bottom: 80px;
+
+}
+
+
+
 
 
 
