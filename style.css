@@ -989,6 +989,12 @@ font-weight: 900;
 
 
 
+
+
+
+
+
+
 .membership-pacakge{
 display:flex;
 justify-content: space-between;
@@ -1015,6 +1021,7 @@ padding: 100px 0px;
     font-family: inter;
     font-weight: 600;
     text-align: center;
+    margin-top: 35px;
 
 }
 
@@ -1033,8 +1040,8 @@ padding: 100px 0px;
     color: rgb(128, 128, 128);
     font-family: inter;
     padding: 10px 0px;
-    list-style-type: none;
-    text-align: center;
+    list-style-type: ;
+    
 }
 
 
@@ -1042,10 +1049,11 @@ padding: 100px 0px;
     background-color: #383838af ;
     border-radius: 16px;
     width: 400px;
-    height: 450px;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 
     
 
@@ -1061,6 +1069,7 @@ padding: 100px 0px;
     text-align: center;
     margin: 10px auto;
     display: flex;
+    
     
 
 }
@@ -1083,4 +1092,31 @@ padding: 100px 0px;
 
 .membership-plans{
     padding: 80px 0px;
+}
+
+.package-advance{
+    position: relative;
+}
+
+.package-recomend{
+    position: absolute;
+    padding: 5px 10px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    top: 0;
+    right: 0;
+    background-color: #E6533C;
+    margin: 0px ;
+    
+
+    
+
+}
+
+
+.package-recomend h1{
+    font-size: 16px;
+    color: #fff;
+    font-family: inter;
+
 }
