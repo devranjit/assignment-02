@@ -1046,10 +1046,12 @@ padding: 100px 0px;
 }
 
 
-.package-basic{
+.package-basic,
+.package-advance,
+.package-premium{
     background-color: #383838af ;
     border-radius: 16px;
-    width: 400px;
+    width: 100%;
     height: 500px;
     display: flex;
     align-items: center;
@@ -1124,10 +1126,6 @@ padding: 100px 0px;
 
 
 
-/* mobile exercise code  */
 
 
-.exercise-mobile{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
+
