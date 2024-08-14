@@ -150,21 +150,30 @@
 
 
 .newsletter{
-display: flex;
-gap: 70px;
+display: grid;
+gap: 10px;
+
 }
 
 
+.btn-news{
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.news-content{
+    max-width: 100%;
+    
+}
+
 .news-content h1{
-font-size: 25px;
+font-size: 35px;
 
 }
 
 
 .news-img img{
-    width: 200px;
-    height: 300px;
-    object-fit: cover;
+    width: 100%;
     
 }
 
@@ -173,7 +182,13 @@ font-size: 25px;
     paddiing
 }
 
+.habits h3{
+    padding: 30px 0px 0px 0px;
+}
 
+.habits p{
+    padding: 5px 0px 50px 0px;
+}
 
 
 
@@ -215,18 +230,27 @@ font-size: 25px;
 
 
 .exercise{
-    display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33% ;
+    display: none;
+    /* grid-template-columns: 33.33% 33.33% 33.33% ; */
 
    
 }
 
+.exercise-mobile{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1.1fr;
+
+}
+
+.box4{
+    grid-column: span ;
+}
 
 
 
 .exercise-two{
-    display: grid;
-    grid-template-columns: 40% 30% 30%;
+    display: none;
+    /* grid-template-columns: 40% 30% 30%; */
 }
 
 
@@ -261,9 +285,9 @@ padding: 30px 10px;
 .team-section{
     background-color:#191919;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
     gap: 15px;
-    padding: 20px ;
+    padding: 20px 20px 30px 20px ;
     border-radius: 20px;
     
     
@@ -279,11 +303,12 @@ padding: 30px 10px;
 .team-04,
 .team-05,
 .team-06{
-    max-width: 350px;
-    height: 250px;
+    max-width: 550px;
+    height: 450px;
     background-position: center;
     border-radius: 20px;
     position: relative;
+    
     
     
     
