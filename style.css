@@ -1046,16 +1046,15 @@ padding: 100px 0px;
 }
 
 
-.package-basic,
-.package-advance,
-.package-premium{
-    background-color: #383838af ;
+.package-basic{
+background-color: #383838af ;
     border-radius: 16px;
-    width: 100%;
+    width: 500px;
     height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
+    
     
 
     
@@ -1085,11 +1084,6 @@ padding: 100px 0px;
     font-weight: 600;
 }
 
-
-.package-advance{
-    border: 3px solid #6d696857;
-    border-radius: 20px;
-}
 
 
 
