@@ -388,6 +388,13 @@ padding: 30px 10px;
 
 
 
+.exercise-mobile{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+
 
 
 
