@@ -985,3 +985,102 @@ font-weight: 900;
 
 
 
+/* membership section start here  */
+
+
+
+.membership-pacakge{
+display:flex;
+justify-content: space-between;
+}
+
+
+
+
+
+.membership-tittle h1{
+font-size: 48px;
+color: #fff;
+text-align: center;
+font-family: inter;
+font-weight: 900;
+padding: 100px 0px;
+}
+
+
+.package-tittle h1{
+
+    font-size: 24px;
+    color: #fff;
+    font-family: inter;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+
+.package-tittle h6{
+    font-family: inter;
+    color: #E6533C;
+    font-size: 16px;
+    margin: 0px auto;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.package-tittle li{
+    font-size: 18px;
+    color: rgb(128, 128, 128);
+    font-family: inter;
+    padding: 10px 0px;
+    list-style-type: none;
+    text-align: center;
+}
+
+
+.package-basic{
+    background-color: #383838af ;
+    border-radius: 16px;
+    width: 400px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+
+    
+}
+
+
+.member-button{
+    background-color: #E6533C;
+    padding: 15px 45px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px auto;
+    display: flex;
+    
+
+}
+
+.member-button a{
+    text-decoration: none;
+    font-size: 16px ;
+    font-family: inter;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+.package-advance{
+    border: 3px solid #6d696857;
+    border-radius: 20px;
+}
+
+
+
+.membership-plans{
+    padding: 80px 0px;
+}
